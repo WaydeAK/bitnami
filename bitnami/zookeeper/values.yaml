@@ -126,10 +126,10 @@ securityContext:
 ##
 persistence:
   enabled: true
-  # storageClass: "-"
+  storageClass: "czclass"
   accessModes:
     - ReadWriteOnce
-  size: 8Gi
+  size: 2Gi
   annotations: {}
 
 ## Node labels and tolerations for pod assignment
